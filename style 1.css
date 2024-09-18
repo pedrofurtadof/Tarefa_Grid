@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBold.otf');
+    font-weight: 800;
+
+}
+*{
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #F9F1F0;
+    width: 100%;
+    height: 100vh;
+}
+.logo
+{
+    padding: 5px 20px;
+    font-weight: bold;
+}
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 70px;
+    background-color: #FADCD9;
+    margin: 10px 20px;
+    border-radius: 20px;
+
+}
+li
+{
+    list-style: none;
+    padding: 5px 20px;
+}
+ul{
+    display: flex;
+}
+.alinhar
+{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.alinhar1
+{
+    grid-row-start:1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end:6 ;
+    background-color: #FADCD9;
+    margin: 10px 20px;
+    border-radius: 20px;
+
+
+
+}
+img
+    
+{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.alinhar2
+{
+    margin: 5px 0px;
+    grid-row-start:1;
+    grid-row-end: 5;
+    grid-column: 6/8;
+    border-radius: 20px;
+
+}
+.alinhar3
+{
+    grid-row: 1/7;
+    grid-column: 8/15;
+    background-color: #FADCD9;
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border-radius: 30px;
+
+}
+.sofa
+{
+    grid-column:2/6;
+    grid-row: 1/6;
+
+}
+.alinhar4
+{
+    grid-row: 5/8;
+    grid-column: 1/5;
+    background-color: #FADCD9;
+    margin: 15px 20px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-top:150px ;
+    padding-right:180px;
+    text-align: justify;
+
+}
+.alinhar5
+{
+    background-color: #f8afa6;
+    grid-column: 5/8;
+    grid-row: 5/8;
+    margin: 20px 0px;
+    border-radius: 20px;
+    padding-top: 210px;
+    font-size: 60px;
+    padding-left: 40px;
+}
+.alinhar6
+{
+    grid-row: 7/8;
+    grid-column: 8/15;
+    background-color: #FADCD9;
+    margin: 10px 20px;
+    border-radius: 20px;
+    
+}
+#bold
+{
+    font-weight: bold;
+   
+}
+#italic
+{
+font-style: italic;
+}
+#text1
+{
+    margin-top: 230px;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.text6
+{
+    padding-top: 33px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.text3
+{
+    grid-column: 2/6;
+    grid-row: 6/8;
+}
+.text3 li
+{
+    padding-left:220px ;
+    padding-top: 40px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#li {
+        border-top: 2px solid #f8afa6;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-bottom: 20px;
+}
+
+
+
+
+
+
